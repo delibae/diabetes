@@ -16,7 +16,7 @@
 <img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"> <a/>&nbsp
 <img src="https://img.shields.io/badge/GCP-326CE5?style=for-the-badge&logo=kubers&logoColor=white"> <a/>&nbsp
 <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"><a/>&nbsp
-<p/>
+<p/> 
 <br/>  
 
 ## API

@@ -1,0 +1,12 @@
+docker run -d -p 0.0.0.0:5000:5000/tcp --name diabetes_t baehanjin/diabetes
+
+docker build -t baehanjin/diabetes .
+
+
+minikube start --extra-config=apiserver.service-node-port-range=5000-5021
+
+
+kubectl apply -f minikube.yaml
+
+kubectl expose deployment diabetes --port=8080 --target-port=5000 \
+        --name=example-service --type=LoadBalancer
